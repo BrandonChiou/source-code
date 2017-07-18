@@ -1,0 +1,1 @@
+psiblast -num_iterations 3 -db /db/swissport -query fasta.fasta -evalue 0.001 -num_threads 1 -out_ascii_pssm 2_sp|Q5TYW2|A20A1_HUMAN2.pssm
