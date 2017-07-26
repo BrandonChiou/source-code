@@ -1,5 +1,4 @@
-
-
+from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 import os
@@ -29,3 +28,4 @@ for step in range(1000):
 	sess.run(train_step)
 	if step % 50 == 0:
 		print (step, sess.run(Weights), sess.run(biases))
+		
